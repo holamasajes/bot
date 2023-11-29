@@ -1,0 +1,37 @@
+{
+    "name": "bot-gregoria",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "types": "module",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js --ext js ",
+        "db": "node src/database/init/database.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "file:src/packages/bot",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/provider": "file:src/packages/provider",
+        "@whiskeysockets/baileys": "^6.5.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "http": "^0.0.1-security",
+        "jimp": "^0.16.1",
+        "link-preview-js": "^3.0.5",
+        "mime-types": "2.1.35",
+        "wa-sticker-formatter": "4.4.4",
+        "mysql2": "^3.6.1",
+        "pg": "^8.11.3",
+        "sequelize": "^6.33.0",
+        "colors": "^1.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "author": "",
+    "license": "ISC"
+}

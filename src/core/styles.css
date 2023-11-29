@@ -1,0 +1,112 @@
+a {
+    color: #000
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: Inter, sans-serif, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff2d;
+    border-radius: 10px;
+    box-shadow: #36363626 0 48px 100px;
+    overflow: hidden;
+    color: #000
+}
+
+h1,
+h2 {
+    margin: 0 0 5px
+}
+
+section {
+    padding: 20px
+}
+
+
+/* HEADER */
+header {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+
+
+header .logo a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column
+}
+
+.logo h1 {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 600
+}
+
+.logo img {
+    object-fit: contain
+}
+
+
+.qr-section img {
+    display: block;
+    background-color: #f0f0f0;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px
+}
+
+.qr-section {
+    display: flex;
+    justify-content: center
+}
+
+
+section .page {
+    display: grid;
+    padding: 1rem;
+    gap: 2rem
+}
+
+section .page .qr-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+section h1 {
+    font-size: 1rem
+}
+
+section p {
+    font-size: .8rem
+}
+
+section h1,
+p {
+    padding: 0;
+    margin: 0
+}

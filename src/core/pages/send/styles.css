@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgba(102, 102, 102, 0.1);
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #00db54;
+}
+
+/* Estilos de los campos de entrada */
+textarea {
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+/* Estilos para el textarea cuando está enfocado */
+textarea:focus {
+    border-color: #00db54;
+    box-shadow: 0 0 5px #00db5480;
+    outline: none;
+}
+
+/* Estilos del botón */
+button {
+    background-color: #00db54;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    width: 40%;
+}
+
+button:hover {
+    background-color: #00b336;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    color: #00b336;
+    font-size: small;
+}
+
+.preview {
+    background-color: #0cd3a8;
+}
+
+.containerPreview {
+    width: auto;
+    max-width: 250px;
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #6666661a;
+
+}
+
+#preview {
+    background-color: #005c4b;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: none;
+}

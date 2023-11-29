@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SmarterBot 🤖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link type="image/png" sizes="120x120" rel="icon" href="./favicon.png">
+
+</head>
+
+<body>
+    <form id="SendMessage">
+        <h1>Enviar Mesages</h1>
+        <textarea id="mensaje" name="message" placeholder="Escribe tu mensaje aquí" rows="4"></textarea>
+        <div class="buttons">
+            <button type="button" onclick="sendMessage()">Enviar</button>
+            <button type="button" class="preview" onclick="previewMessage()">Previsualizar</button>
+        </div>
+
+        <p>Se enviara un mensaje a todos los contactos en la base de datos</p>
+    </form>
+    <div class="containerPreview">
+        <div id="preview"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
